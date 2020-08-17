@@ -1,4 +1,4 @@
-function validaUsuario(ux, px){
+async function validaUsuario(ux, px){
     let data = {
         'UX': ux,
         'PX': px,
@@ -15,7 +15,7 @@ function llenaUsuario(usrjson){
 }
 
 
-$('#bEntrar').click(function(){
+async function ingresar(){
     if ($('#iUsr').val() != '' && $('#iPwd').val() != '')
         validaUsuario($('#iUsr').val(), $('#iPwd').val());
-});
+}
