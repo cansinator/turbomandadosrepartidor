@@ -1,4 +1,4 @@
-async function validaUsuario(ux, px){
+function validaUsuario(ux, px){
     let data = {
         'UX': ux,
         'PX': px,
