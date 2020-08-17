@@ -2,8 +2,8 @@ function validaUsuario(ux, px){
     let data = {
         'UX': ux,
         'PX': px,
-        'FB': 'NA',
-        'NFB': 'NA'
+        'FB': '',
+        'NFB': ''
     };
     consumeServicio('POST', data, CONSULTAUSUARIO, llenaUsuario);
 }
