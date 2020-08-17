@@ -7,8 +7,8 @@
     "start_url": "index.html",
     "gcm_sender_id": "103953800507",
     "serviceworker": {
-        "src": "../turbomandados/firebase-messaging-sw.js",
-        "scope": "../turbomandados/"
+        "src": "../turbomandadosrepartidor/firebase-messaging-sw.js",
+        "scope": "../turbomandadosrepartidor/"
     },
     "icons": [
         {

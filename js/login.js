@@ -9,7 +9,7 @@ async function validaUsuario(ux, px){
 }
 
 
-async function llenaUsuario(usrjson){
+function llenaUsuario(usrjson){
     localStorage.setItem("usuario", JSON.stringify(usrjson));
     window.location.replace("pedidos.html");
 }
