@@ -27,7 +27,7 @@ function creaHeader(nivel) {
 
     html += '        <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">';
     html += '        <a class="navbar-brand" href="#">';
-    html += '            <img src="img/tiendas/tiendaslores.svg" width="30" height="30" class="d-inline-block align-top" alt="">';
+    html += '            <img src="img/tiendas/turbomandados.jpg" width="30" height="30" class="d-inline-block align-top" alt="">';
     html += '            Turbo Mandados';
     html += '        </a>';
     html += '        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"';
