@@ -14,3 +14,8 @@ async function llenaUsuario(usrjson){
     window.location.replace("pedidos.html");
 }
 
+
+$('#bEntrar').click(function(){
+    if ($('#iUsr').val() != '' && $('#iPwd').val() != '')
+        validaUsuario($('#iUsr').val(), $('#iPwd').val());
+});
