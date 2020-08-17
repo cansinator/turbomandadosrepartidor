@@ -1,4 +1,4 @@
-async function consumeServicio(metodo, data, servicio, funcion) {
+function consumeServicio(metodo, data, servicio, funcion) {
   $.ajax({
     url: servicio,
     type: metodo,
