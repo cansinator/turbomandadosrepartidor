@@ -2,8 +2,8 @@ async function validaUsuario(ux, px){
     let data = {
         'UX': ux,
         'PX': px,
-        'FB': '',
-        'NFB': ''
+        'FB': "",
+        'NFB': ""
     };
     consumeServicio('POST', data, CONSULTAUSUARIO, llenaUsuario);
 }
